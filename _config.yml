@@ -19,15 +19,19 @@ url: "" # the base hostname & protocol for your site
 markdown: kramdown
 
 index:
-  en:
-  es: index.es.html
+  en: index-en.html
+  es: index-es.html
 
 collections:
   posts:
     output: true
     permalink: /blog/:title/
 
-
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
