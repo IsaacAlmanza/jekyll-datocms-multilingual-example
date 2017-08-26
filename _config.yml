@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-title: Isaac Almanza
+title: Hello world
 email: your-email@domain.com
 
 description:
@@ -13,7 +13,7 @@ description:
   es: Escribir una gran descripción de su nueva página web aquí. Puede cambiar esta línea en _config.yml. Aparecerá en la descripción meta tag (para los resultados en Google) y el cable RSS feed.xml.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -22,6 +22,12 @@ index:
   en:
   es: index.es.html
 
-exclude: 
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
+
+exclude:
   - Gemfile
   - Gemfile.lock

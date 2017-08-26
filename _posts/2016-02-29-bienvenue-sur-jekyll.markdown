@@ -5,7 +5,6 @@ ref: welcome
 date: '2017-07-14 03:48:44'
 categories: jekyll update
 lang: es
-permalink: "/blog/bienvenido-a-jekyll/"
 ---
 
 Este artículo se encuentra en la carpeta `_posts`. Ir a editar y construir su sitio de nuevo para ver los cambios. Puede generar el sitio de diferentes maneras, pero la más eficaz es poner en marcha el comando `Jekyll serve`, lo que crea un servidor web y genera automáticamente su sitio cada vez que se modifica un archivo.
